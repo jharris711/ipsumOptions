@@ -1,0 +1,37 @@
+.extension {
+    text-align: center;
+    background-color: #ffffff;
+    color: #383838;
+    margin: 0 auto;
+} 
+
+.main {
+    padding: 5px;
+}
+
+#header {
+    margin-top: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+#contactButton {
+    margin-bottom: 25px;
+}
+
+#backButton {
+    margin-bottom: 30px;
+}
+
+.button-black.button-clear,
+.button-black.button-outline {
+  background-color: #ffffff;
+  color: #383838;
+  border-color: #383838;
+}
+
+.bottomInfo {
+    margin: 1px;
+}

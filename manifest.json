@@ -1,0 +1,31 @@
+{
+    "manifest_version": 2,
+
+    "name": "Ipsum Options",
+    "version": "1.0.1",
+    "description": "Presents menu of options for lorem ipsum sites and opens selection in new browser tab.",
+    "permissions": ["activeTab"],
+
+    "icons": { 
+        "16": "icon16.png",
+        "48": "icon48.png",
+       "128": "icon128.png" 
+    },
+
+    "browser_action": {
+        "default_icon": "icon16.png",
+        "default_popup": "popup.html"
+    },
+
+    "author": "J. Harris",
+
+
+    "background": [
+        {
+            "css": ["style.css"],
+            "js": ["jquery-3.4.1.min.js", "popup.js", "contact.js"],
+            "run_at": "document_end"
+        }
+    ]
+    
+}
